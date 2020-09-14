@@ -1,0 +1,74 @@
+nav
+{
+   display: inline-flexbox;
+}
+nav ul
+ {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+  } 
+nav li
+ {
+    float: right;
+    border: 1px;
+ }
+nav li a
+ {
+    display: block;
+    color: black;
+    text-decoration: white;
+    padding:20px;
+    font-size: x-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ } 
+nav li a:hover
+ {
+    background-color: gainsboro;
+ }
+ body
+ {
+    background-color: white;
+    background-image: url(imag.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-attachment: fixed;
+    background-position: center 135px;
+ }
+input[type=text]
+ {
+    width: 40%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 1px;
+    border-color: #dcdcdc;
+    border-style: solid;
+    color: black;
+    margin-left: 20px;
+    font-size: 16px;
+    background: url('mic.png'), url('cam.png'),url('sea.png');
+    background-size: 15px,25px,20px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-origin: content-box,content-box,content-box;
+    background-position: 92%,85%,right;
+ }
+input[type=text]:hover
+ {
+    box-shadow: 0.5px 0.5px 4px 0.5px #dcdcdc;
+ }
+  input[type=text]:focus-within
+ {
+    box-shadow: 0.5px 0.5px 4px 0.5px #dcdcdc;
+    outline: none;
+}
+form
+{
+    display: flexbox;
+    padding-top: 200px;
+}
